@@ -80,10 +80,9 @@
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod.ts"
+                  "with": "src/environments/environment.pages.ts"
                 }
               ],
-              "deployUrl": "/feature-toggle-blog/",
               "baseHref": "/feature-toggle-blog/",
               "optimization": true,
               "outputHashing": "all",

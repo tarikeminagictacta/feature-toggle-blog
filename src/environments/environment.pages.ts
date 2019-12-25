@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  assetsBaseUrl: ''
+  assetsBaseUrl: '/feature-toggle-blog'
 };
