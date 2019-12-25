@@ -1,0 +1,17 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col" *appAccountingFeatureToggle="'capital'">
+      <app-capital-widget></app-capital-widget>
+    </div>
+    <div class="col" *appAccountingFeatureToggle="'netIncome'">
+      <app-net-income-widget></app-net-income-widget>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col">
+      <pre class="border rounded text-light bg-dark">{{
+        (allFeatures$ | async | json) || 'Loading...'
+      }}</pre>
+    </div>
+  </div>
+</div>
