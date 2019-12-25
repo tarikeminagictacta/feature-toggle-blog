@@ -1,0 +1,14 @@
+[
+  {
+    "featureName": "capital",
+    "enabled": true
+  },
+  {
+    "featureName": "capitalSeeDetails",
+    "enabled": false
+  },
+  {
+    "featureName": "netIncome",
+    "enabled": true
+  }
+]
