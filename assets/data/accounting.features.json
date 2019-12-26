@@ -5,7 +5,7 @@
   },
   {
     "featureName": "capitalSeeDetails",
-    "enabled": false
+    "enabled": true
   },
   {
     "featureName": "netIncome",
