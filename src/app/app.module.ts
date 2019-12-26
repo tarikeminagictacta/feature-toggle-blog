@@ -4,13 +4,12 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AccountingModule } from './accounting/accounting.module';
 import { HomeComponent } from './home/home.component';
 import { AssetsInterceptor } from './assets.interceptor';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule, AccountingModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [
     {
       provide: HTTP_INTERCEPTORS,
